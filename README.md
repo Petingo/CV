@@ -6,21 +6,16 @@ layout: empty
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 # Yang Hong-Bin (Petingo)
-
 <i class="fa-solid fa-bomb" style="margin-right: 3pt"></i>[Portfolio](https://petingo.ch)
-
 <i class="fa-brands fa-github" style="margin-right: 3pt"></i>[Github](https://github.com/petingo)
-
 eyanghongbin0315@gmail.com
-
 Lausanne, Switzerland
 
-
 ## Education
-### École Polytechnique Fédérale de Lausanne
+### École Polytechnique Fédérale de Lausanne (EPFL)
 *M.S. in Computer Science*
 Sep. 2021 ~ Present
-- GPA 5.4/6.0
+- GPA 5.3/6.0
 
 ### Taiwan Tech
 *B.S. in Computer Science*
@@ -33,9 +28,9 @@ Feb. 2020 ~ Jun. 2020
 - GPA 1.0/1.0
 
 ## Skill
-**Technical** - Computer Vision, Deep Learning, 3D Geometry Computing, AR, Digital Fabrication
+**Technical** - Computer Vision, Machine Learning, Computational Design, Digital Fabrication
 
-**Programming** - C, C++, Python, JavaScript, Go, Java
+**Programming** - C++, Python, C#, JavaScript, Rhino & Grasshopper
 
 **Language** - English (C1-C2), German (Beginner), Japanese (Basic), Mandarin (Native)
 
@@ -43,52 +38,51 @@ Feb. 2020 ~ Jun. 2020
 ### IBOIS (Laboratory for Timber Constructions), EPFL
 *Part-time Student Assistant & Full-time Summer Internship*
 Apr. 2022 ~ Present
-- Participated in a research project of augmented reality for hand-held carpentry tools.
-- Refined an open-source SLAM method and integrated it into the main program (in C++), including:
-    1. Developing new features such as map fusion and 3D model reconstruction
-    2. Enabling OpenGL compatibility to fuse the virtual scene and the camera view
-    3. Resolving several bugs in the original code to increase the robustness and stability.
+- Contributed to a research project focused on developing augmented reality applications for hand-held carpentry tools.
+- Optimize an open-source SLAM method (UcoSLAM) for our task, including:
+    1. Added new features such as map fusion and 3D model reconstruction.
+    2. Ensured compatibility with OpenGL for seamless integration of the virtual scene and camera view.
+    3. Diagnosed and resolved multiple bugs in the original code to enhance its robustness and stability.
 
 
 ### Artificial Intelligence and Image Understanding Lab, Academia Sinica
 *Research Assistant*
 Jul. 2020 ~ Dec. 2020
-- Explored the possibility of utilizing image quality assessment methods (NIMA and BRISQUE) to enhance the realness of the composite image produced by deep learning-based image harmonization methods (e.g. Deepfake).
-- Re-implemented a deep learning-based image forgery detection method (Face X-ray) in PyTorch and tried to improve it by introducing more features such as DCT and FFT.
+- Investigated the use of image quality assessment methods, specifically NIMA and BRISQUE, to improve the realism of composite images created by deep learning-based image harmonization techniques like Deepfake.
+- Re-implemented a deep learning-based image forgery detection method (Face X-ray) in PyTorch and experimented with the introduction of various features to enhance its performance.
 
 
 ### Lab of Image/Video Processing and Compression, Taiwan Tech
 *Student Research Assistant*
 Jan. 2019 ~ Feb. 2020
-- Conducted research on chroma subsampling and upsampling on both normal photo and light-field images (mainly in Python and Tensorflow 1.0).
-- Proposed a method on YUV420 subsampling, which outperform the previous state-of-the-art by >1db in the evaluation of color-PSNR.
+- Conducted research on chroma subsampling and upsampling of normal and light-field images.
+- Proposed novel YUV420 subsampling method with low distortion, achieving a 1.1dB (2.5%) increase in PSNR evaluation compared to the previous state-of-the-art.
 
 ### STAR BIT Innovation Co.,Ltd.
 *Software Engineer Intern*
 Mar. 2018 ~ Jul. 2019
-- Developed front-end APIs of a decentralized cryptocurrency exchange in JavaScript to enable 5 different kinds of Ethereum wallets to interact with the Ethereum blockchain directly through the web interface.
-- Collaborated with KeyXentic and developed a Chrome Extension that enables web3.js support for their hardware wallet.
+- Created front-end APIs for a decentralized cryptocurrency exchange using JavaScript, enabling five distinct types of Ethereum wallets to interact with the Ethereum blockchain directly through a web interface.
+- Partnered with KeyXentic to design and implement a Chrome Extension that extends web3.js support to their hardware cryptocurrency wallet, providing secure and seamless integration with the Ethereum blockchain.
 
 
 ## Publication
-*H. B. Yang*, M. Johanes, F. C. Kim, M. Bernhard, & J. Huang, **"Architectural Sketch to 3D Model: An Experiment on Simple-Form Houses,"** Under review of CAAD Future 2023
-- Created a synthetic dataset of 3D house models and corresponding hand-drawn sketches with Rhino Grasshopper and trained a deep learning network that can generate a 3D mesh based on a hand-drawn sketch.
-- Built a web-based interface for demonstration, where the user can sketch and view the generated result in a browser.
+**"Architectural Sketch to 3D Model: An Experiment on Simple-Form Houses,"** *H. B. Yang*, M. Johanes, F. C. Kim, M. Bernhard, & J. Huang, CAAD Future 2023
+- Utilized Rhino Grasshopper to generate a synthetic dataset of 3D house models and corresponding hand-drawn sketches.
+- Trained a deep learning network capable of generating a 3D mesh from a hand-drawn sketch and developed a pipeline to optimize the generated output.
+- Constructed a web-based interface for demonstration purposes, allowing users to sketch and view the generated result directly in their browser and export it to Rhino through Grasshopper.
 
-Chung, K. L., Cheng, J. S., & *Yang, H. B.* , **"Effective Chroma Subsampling and Luma Modification for RGB Full-Color Images Using the Multiple Linear Regression Technique,"** IEEE Access, 8, 118315-118323., Jun 2020  [(Link to Paper)](https://ieeexplore.ieee.org/abstract/document/9108293)
+**"Effective Chroma Subsampling and Luma Modification for RGB Full-Color Images Using the Multiple Linear Regression Technique,"** Chung, K. L., Cheng, J. S., & *Yang, H. B.* , IEEE Access, 8, 118315-118323., Jun 2020  [(Link to Paper)](https://ieeexplore.ieee.org/abstract/document/9108293)
 - Proposed the initial idea of applying multiple linear regression on YUV420 subsampling to minimize the distortion.
-- The final result outperformed the previous state-of-the-art by 1.1dB (2.5%) in the evaluation of PSNR.
-
+- Successfully achieved a 1.1dB (2.5%) increase in PSNR evaluation compared to the previous state-of-the-art.
 
 ## Honors & Awards
 2021 | **Special Award of the Year** – *Shin Kong Mitsukoshi International Photography Contest*
 
 2020 | **Study Abroad Scholarship** – *Taiwan Tech and Ministry of Education, Taiwan*
-- Based on English proficiency
 
 2019 | **College Student Research Scholarship** – *Ministry of Science and Technology, Taiwan*
-- Based on the research proposal and academic performance
-- Proposed a CNN-based chroma upsampling method for light field image, which outperforms the conventional bicubic and bilinear method by 1.24dB (2.9%) and 2.22dB (5.4%), respectively, in the evaluation of PSNR.
+- Awarded based on the research proposal and academic performance
+- Proposed a CNN-based chroma upsampling method for light field images with low distortion, surpassing the conventional bicubic and bilinear methods by 1.24dB (2.9%) and 2.22dB (5.4%), respectively, in PSNR evaluation.
 
 2019 | **Silver Award – *ICPC Taiwan National Contest for Technology Universities***
 - Competitive programming contest; preliminary for ACM-ICPC
@@ -101,7 +95,7 @@ Chung, K. L., Cheng, J. S., & *Yang, H. B.* , **"Effective Chroma Subsampling an
 
 2017 | **Best Presentation Award** – *Intelligent Living Hackathon*
 - Top 6 among 50 teams
-- Demonstrated a management system for a shared refrigerator using an Android phone and student ID.
+- Proposed a management system for a shared refrigerator in a student dormitory using an Android phone and student ID authentication.
 
 
 <style type='text/css'>
@@ -128,4 +122,10 @@ Chung, K. L., Cheng, J. S., & *Yang, H. B.* , **"Effective Chroma Subsampling an
     .mini-space {
         padding-top: 0.1em
     }
+    @media screen and (min-width: 700px){
+        .wrap {
+            width: 750px;
+        }
+    }
+    
 </style>
